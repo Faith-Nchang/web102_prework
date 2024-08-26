@@ -23,13 +23,13 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />](https://www.loom.com/share/60482208268442ceaa4b304646b45277)
-https://www.loom.com/share/60482208268442ceaa4b304646b45277
+[<img src='https://github.com/Faith-Nchang/web102_prework/blob/main/codepath.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />]
+
+https://github.com/Faith-Nchang/web102_prework/blob/main/codepath.gif
 
 GIF created with ...  
 <!-- Recommended tools:
 LiceCap
-Loom
 
 ## Notes
 
