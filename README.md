@@ -25,7 +25,7 @@ Here's a walkthrough of implemented features:
 
 [<img src='https://github.com/Faith-Nchang/web102_prework/blob/main/codepathdemogif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />]
 
-https://github.com/Faith-Nchang/web102_prework/blob/main/codepathdemogif.gif
+[https://github.com/Faith-Nchang/web102_prework/blob/main/codepathdemogif.gif
 GIF created with LiceCap
 
 ## Notes
