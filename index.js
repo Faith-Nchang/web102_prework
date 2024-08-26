@@ -47,8 +47,8 @@ function addGamesToPage(games) {
             <img src="${game.img}" class="game-img" alt="${game.name}" />
             <h3>${game.name}</h3>
             <p>${game.description}</p>
-            <p>Pledged: ${game.pledged.toLocaleString()}</p>
-            <p>Goal: ${game.goal.toLocaleString()}</p>
+            <p>Pledged: $${game.pledged.toLocaleString()}</p>
+            <p>Goal: $${game.goal.toLocaleString()}</p>
              <p>Pledged: ${game.backers.toLocaleString()}</p>
         `;
          // append the game to the games-container
@@ -62,7 +62,7 @@ function addGamesToPage(games) {
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-// addGamesToPage(GAMES_JSON);
+addGamesToPage(GAMES_JSON);
 
 
 
