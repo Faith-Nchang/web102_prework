@@ -23,10 +23,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[<img src='https://github.com/Faith-Nchang/web102_prework/blob/main/codepath.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />]
+[<img src='https://github.com/Faith-Nchang/web102_prework/blob/main/codepathdemogif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />]
 
-https://github.com/Faith-Nchang/web102_prework/blob/main/codepath.gif
-
+https://github.com/Faith-Nchang/web102_prework/blob/main/codepathdemogif.gif
 GIF created with LiceCap
 
 ## Notes
