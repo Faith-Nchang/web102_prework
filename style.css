@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: black;
+    color:white;
 }
 
 #tentacles {
@@ -11,20 +12,22 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
-    padding: 1%;
+    padding: 2%;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
 }
 
 .stats-container {
     display: flex;
+    align-items: center;
+
+}
+.stats-container:hover{
+    box-shadow: 0 0 30px lightblue;
+    cursor: pointer;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #00afb9;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -40,8 +43,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    color: black;
+   
+}
+.ourGames{
+    margin-top: 50px;
+    padding-top: 50px;
+
 }
 
+.ourGames > p{
+    padding: 50px;
+    font-size:  large;
+}
 .game-img {
     width: 100%;
     border-radius: 5px;
@@ -73,3 +87,133 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.navbar {
+    padding: 1rem;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding-right: 2rem;
+    display: flex;
+
+    justify-content: space-between;
+    
+  }
+  
+  .navbar li {
+    /* display: inline; */
+    margin-right: 15px;
+    color: black;
+
+    font-size: 1.5rem;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: aqua;
+  }
+
+  main{
+    margin-top: 2rem;
+    
+  }
+  
+h1, h2{
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+section{
+    margin-top: 25px;
+}
+
+.welcome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 2rem;
+    font-size: large;
+    text-align: center;
+}
+
+.fundedData {
+    font-size: 1.3rem;
+    color: #A4C3B2;
+    font-weight: bold;
+
+}
+
+/* Define the keyframes for sliding in from the left */
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Define the keyframes for sliding in from the right */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the sliding animation to the h2 element */
+  .slide-in-left {
+    animation: slideInLeft 2s ease-out;
+  }
+  
+  /* Apply the sliding animation to the paragraph element */
+  .slide-in-right {
+    animation: slideInRight 2s ease-out;
+  }
+  
+
+  button:hover {
+    background-color: rgb(46, 174, 174);
+    color: #fff;
+  }
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+    }
+  
+    .header img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  footer{
+    text-align: center;
+    padding: 60px;
+  }
