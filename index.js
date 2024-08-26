@@ -49,7 +49,7 @@ function addGamesToPage(games) {
             <p>${game.description}</p>
             <p>Pledged: $${game.pledged.toLocaleString()}</p>
             <p>Goal: $${game.goal.toLocaleString()}</p>
-             <p>Pledged: ${game.backers.toLocaleString()}</p>
+             <p>Backers: ${game.backers.toLocaleString()}</p>
         `;
          // append the game to the games-container
         gamesContainer.appendChild(gameCard);
