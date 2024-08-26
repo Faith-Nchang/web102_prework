@@ -27,9 +27,7 @@ Here's a walkthrough of implemented features:
 
 https://github.com/Faith-Nchang/web102_prework/blob/main/codepath.gif
 
-GIF created with ...  
-<!-- Recommended tools:
-LiceCap
+GIF created with LiceCap
 
 ## Notes
 
